@@ -80,6 +80,11 @@ print(txt.format(name, age, price))
 txt = "I am a \"Viking\""
 print(txt)
 
+strOne = str('a')
+strTwo = 'a'
+
+print(strOne == strTwo)
+print(strOne is strTwo)
 
 '''
 capitalize()	Converts the first character to upper case
